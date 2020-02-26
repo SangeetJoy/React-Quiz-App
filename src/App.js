@@ -50,7 +50,7 @@ class App extends React.Component {
   return (
     <div>
      <Header/>
-      <div className='container mt-5'>
+      <div className='container mt-5 mb-5'>
         {questionBank.length > 0 && responses < 5 && questionBank.map(({question,options,rightAnswer,questionId}) => (
             <Questionbox question={question} options={options} rightAnswer={rightAnswer} key={questionId}
              computeScore = {(answer) => this.computeScore(answer,rightAnswer) }
