@@ -20,7 +20,7 @@ const qBank = [
     {
         question: 'Q. At the highest level, React components have lifecycle events that fall into',
         options: ['initialization', 'State/Property Updates', 'destruction', 'All of these'],
-        rightAnswer: 'this.initialization',
+        rightAnswer: 'tinitialization',
         questionId: 94560
     },
     {
@@ -44,9 +44,22 @@ const qBank = [
     {
         question: 'Q.  What happens when you call setState() inside render() method?',
         options: ['Repetitive output appears on the screen', 'Stack overflow error', 'Duplicate key error', 'Nothing happens. Life goes on!'],
-        rightAnswer: 'both transpiler and interpreter',
+        rightAnswer: 'epetitive output appears on the screen',
         questionId: 89188   
-    }
+    },
+    {
+        question: 'What is the name of the engineer in facebook who has written the react library?',
+        options: ['james Gosling','Evan you','Ryan Dahl','jordan walke'],
+        rightAnswer: 'jordan walke',
+        questionId: 98978
+    },
+    {
+        question: 'what is the language react was written in?',
+        options: ['python','type script','c', 'javascript'],
+        rightAnswer: 'javascript',
+        questionId: 77767
+    },
+    
 ]
 
 export default (n = 5) => {

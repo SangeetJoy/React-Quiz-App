@@ -25,7 +25,7 @@ class Questionbox extends React.Component{
              <h3 className='question-font'>{question}</h3>
              {this.state.optionList.map((item,index) => {
                return(
-                 <button key={index} type='click' className={!isClicked ? 'mr-2 mt-2 btn btn-primary' : 'mr-2 mt-2 btn btn-success'} value={item} onClick={this.clickHandler}>
+                 <button key={index} type='click' className={!isClicked ? 'mr-3 mt-2 btn btn-primary' : 'mr-3 mt-2 btn btn-success'} value={item} onClick={this.clickHandler}>
                    {item}
                  </button>
                )
